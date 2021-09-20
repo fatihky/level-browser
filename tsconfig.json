@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "target": "ES3",
+    "esModuleInterop": true,
+    "declaration": true
+  }
+}

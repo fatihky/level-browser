@@ -1,0 +1,35 @@
+{
+  "name": "level-browser",
+  "version": "0.1.0",
+  "description": "A command line tool for interacting with LevelDB.",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihky/level-browser.git"
+  },
+  "author": "Fatih Kaya <1994274@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fatihky/level-browser/issues"
+  },
+  "homepage": "https://github.com/fatihky/level-browser#readme",
+  "devDependencies": {
+    "@types/leveldown": "^4.0.3",
+    "@types/levelup": "^4.3.3",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^16.9.2"
+  },
+  "dependencies": {
+    "leveldown": "^6.0.2",
+    "levelup": "^5.0.1",
+    "minimist": "^1.2.5"
+  },
+  "files": [
+    "dist/**/*.js"
+  ]
+}
